@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NFSR6JTL');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -12,6 +19,10 @@
     <title>Portfolio Website</title>
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFSR6JTL"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="container">
         
         <nav id="header">
@@ -41,7 +52,7 @@
                 </ul>
             </div>
             <div class="nav-button">
-                <a href="https://drive.google.com/file/d/1la-xf5_aDWCBRZScu7bUounCOO7t2Tbt/view?usp=drive_link" alt="CV">
+                <a href="https://drive.google.com/file/d/1xqVl64VKZs0AIbdFlZs_GCKCZkG3q6A1/view?usp=sharing" alt="CV">
                 <button class="btn">Download CV <i class="uil uil-file-alt"></i></button></a>
             </div>
             <div class="nav-menu-btn">
@@ -102,7 +113,7 @@
                             <p>With proficiency in HTML, CSS, JavaScript, and modern frameworks/libraries, I adeptly develop interactive functionalities. Moreover, I possess hands-on experience with content management systems (CMS) such as WordPress, ensuring comprehensive skills in web development and content creation.
                             </p>
                             <div class="about-btn">
-                                <a href="https://drive.google.com/file/d/1la-xf5_aDWCBRZScu7bUounCOO7t2Tbt/view?usp=drive_link" alt="CV">
+                                <a href="https://drive.google.com/file/d/1xqVl64VKZs0AIbdFlZs_GCKCZkG3q6A1/view?usp=sharing " alt="CV">
                                 <button class="btn">Download CV <i class="uil uil-import"></i></button></a>
                                 
                             </div>
@@ -150,7 +161,7 @@
                                 <span>Higher Secondary</span>
                                 <p>Kanailal VidyaMandir(English Section) || Percentage: 88 || 2018-2020</p>
                                 <span>B.Tech in Computer Science & Engineering</span>
-                                <p>Hooghly Engineering & Technnology College || CGPA: 8.27(till 6th sem) || 2020-2024</p>
+                                <p>Hooghly Engineering & Technnology College || CGPA: 8.66 || 2020-2024</p>
                             </div>
                         </div>
                     </div>
@@ -190,20 +201,25 @@
                         <div class="contact-info">
                             <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
                             <p><i class="uil uil-envelope"></i> Email: valor3011@gmail.com</p>
-                            <p><i class="uil uil-phone"></i> +91 XXXXX XXXXX</p>
+                            <p><i class="uil uil-phone"></i> +91 9123861722</p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-control">
                             <div class="form-inputs">
-                                <input type="text" class="input-field" placeholder="Name">
-                                <input type="text" class="input-field" placeholder="Email">
+                                <label for="name">Name</label>
+                                <input type="text" class="input-field" name="Name" placeholder="Name">
+                                <label for="email">Email</label>
+                                <input type="text" class="input-field" name="Email" placeholder="Email">
+                                <label for="phonenumber">Phone number</label>
+                                <input type="text" class="input-field" name="PhoneNumber" placeholder="Phone Number">
                             </div>
                             <div class="text-area">
-                                <textarea placeholder="Message"></textarea>
+
+                                <textarea name="Message" placeholder="Message"></textarea>
                             </div>
                             <div class="form-button">
-                                <button class="btn">Send <i class="uil uil-message"></i></button>
+                                <button id="submit" type="submit">Send <i class="uil uil-message"></i></button>
                             </div>
                         </div>
                     </div>

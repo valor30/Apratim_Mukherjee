@@ -49,6 +49,22 @@ html{
 
 
 
+#submit{
+    font-weight: 500;
+    padding: 12px 20px;
+    background: #efefef;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+#submit>i{
+    margin-left: 10px;
+}
+#submit:hover{
+    background: var(--second-color);
+    color: var(--color-white);
+}
 .btn{
     font-weight: 500;
     padding: 12px 20px;
@@ -631,3 +647,11 @@ footer{
         width: 100%;
     }
 }
+.labels{
+    display:inline-block;
+    text-align:right;
+    width:40%;
+    padding:5px;
+     vertical-align: top;
+    margin-top: 10px;
+   }
