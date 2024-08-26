@@ -110,7 +110,7 @@ sections.forEach(current =>{
 
 window.addEventListener('scroll', scrollActive)
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbz06FHhnDvEeAe3RNguOLA9T0iVsby5jYwet0RPasnE0sAuHpug6NTk2WWyGIXKBC7mJw/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycby08tlCqLgs7D3l9KwX3iMktI5rtX50JVX_KGltSkOT4bB4v-DW8PPW_-o4aJ15OZ038Q/exec'
   const form = document.forms['google-sheet']
 
   form.addEventListener('submit', e => {

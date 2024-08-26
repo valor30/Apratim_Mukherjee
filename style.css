@@ -458,7 +458,19 @@ h3{
     color: #777;
     z-index: 2;
 }
-
+.label-style {
+    
+    font-weight: bold;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .label-style::after {
+    content: ":";
+  }
+  
 
 .form-control{
     display: flex;
